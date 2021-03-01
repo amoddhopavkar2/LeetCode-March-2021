@@ -1,7 +1,7 @@
 # Distribute Candles
 
 class Solution:
-	def distributeCandles(self, candyType: List[int]) -> int:
+	def distributeCandies(self, candyType: List[int]) -> int:
 		types = len(set(candyType))
 		max_candies = len(candyType) // 2
 		
