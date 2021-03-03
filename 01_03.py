@@ -1,5 +1,5 @@
 # Monday, 1st March 2021
-# Distribute Candles
+# Distribute Candies
 
 class Solution:
 	def distributeCandies(self, candyType: List[int]) -> int:
