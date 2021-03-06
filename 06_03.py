@@ -1,3 +1,6 @@
+# Saturday, 6th March 2021
+# Short Encoding of Words
+
 class TrieNode:
     def __init__(self):
         self.children = {}
