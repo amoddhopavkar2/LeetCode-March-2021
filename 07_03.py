@@ -10,22 +10,45 @@ class MyHashMap:
         """
         Initialize your data structure here.
         """
+        self.table_size = 1000
+        self.slot_size = 1000
+        self.table = [ [] for _ in range(self.table_size) ]
         
 
     def put(self, key: int, value: int) -> None:
         """
         value will always be non-negative.
         """
+        hash_key = key % self.table_size
+        slot_key = key // self.slot_size
+
+        if len(self.table[hash_key]) == 0:
+            self.table[hash_key] = [ -1 for _ in range(self.slot_size) ]
+
+        self.table[hash_key][slot_key] = value
+        return 
         
 
     def get(self, key: int) -> int:
         """
         Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
         """
+        hash_key = key % self.table_size
+        slot_key = key // self.slot_size
+
+        if len(self.table[hash_key]):
+            return self.table[hash_key][slot_key]
+        return -1
         
 
     def remove(self, key: int) -> None:
         """
         Removes the mapping of the specified value key if this map contains a mapping for the key
         """
+        hash_key = key % self.table_size
+        slot_key = key // self.slot_size
+
+        if len(self.table[hash_key]):
+            self.table[hash_key][slot_key] = -1
+        return
         
