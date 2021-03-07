@@ -1,3 +1,6 @@
+# Sunday, 7th March 2021
+# Design HashMap
+
 # Your MyHashMap object will be instantiated and called as such:
 # obj = MyHashMap()
 # obj.put(key,value)
