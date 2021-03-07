@@ -1,3 +1,9 @@
+# Your MyHashMap object will be instantiated and called as such:
+# obj = MyHashMap()
+# obj.put(key,value)
+# param_2 = obj.get(key)
+# obj.remove(key)
+
 class MyHashMap:
 
     def __init__(self):
@@ -23,10 +29,3 @@ class MyHashMap:
         Removes the mapping of the specified value key if this map contains a mapping for the key
         """
         
-
-
-# Your MyHashMap object will be instantiated and called as such:
-# obj = MyHashMap()
-# obj.put(key,value)
-# param_2 = obj.get(key)
-# obj.remove(key)
