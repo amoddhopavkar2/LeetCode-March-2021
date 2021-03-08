@@ -1,3 +1,6 @@
+# Monday, 8th March 2021
+# Remove Palindromic Subsequences
+
 class Solution:
     def removePalindromeSub(self, s: str) -> int:
         # if string is empty, return 0
