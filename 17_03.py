@@ -13,3 +13,8 @@ class Solution:
         adj = cos(ang) * hyp
         opp = sin(ang) * hyp
         return [self.XC + adj, self.YC + opp]
+
+
+# Your Solution object will be instantiated and called as such:
+# obj = Solution(radius, x_center, y_center)
+# param_1 = obj.randPoint()
