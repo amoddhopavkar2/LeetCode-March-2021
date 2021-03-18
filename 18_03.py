@@ -1,3 +1,6 @@
+# Thursday, 18th March 2021
+# Wiggle Subsequence
+
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         positive, negative = 1, 1
@@ -9,4 +12,3 @@ class Solution:
                 negative = positive + 1
             
         return max(positive, negative)
-        
