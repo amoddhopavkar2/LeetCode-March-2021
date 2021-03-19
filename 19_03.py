@@ -1,3 +1,6 @@
+# Friday, 19th March 2021
+# Keys and Rooms
+
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         visitedRooms = set()
