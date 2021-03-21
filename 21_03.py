@@ -1,3 +1,6 @@
+# Sunday, 21st March 2021
+# Reordered Power of 2
+
 class Solution:
     def reorderedPowerOf2(self, N: int) -> bool:
         res = sorted([int(x) for x in str(N)])
