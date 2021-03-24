@@ -1,3 +1,6 @@
+# Wednesday, 24th March 2021
+# Advantage Shuffle
+
 class Solution:
     def advantageCount(self, A: List[int], B: List[int]) -> List[int]:
         order = [i for i in range(len(B))]
@@ -7,3 +10,4 @@ class Solution:
         for ix in order:
             ans[ix] = A.pop() if A[-1] > B[ix] else A.pop(0)
         return ans
+        
