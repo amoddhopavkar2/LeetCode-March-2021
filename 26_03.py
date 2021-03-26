@@ -1,3 +1,5 @@
+# Friday, 26th March 2021
+# Word Subsets
 
 from collections import Counter
 class Solution:
@@ -7,3 +9,4 @@ class Solution:
             count |= Counter(b)
 
         return [a for a in A if not count - Counter(a)]
+        
