@@ -1,3 +1,4 @@
+from collections import Counter
 class Solution:
     def originalDigits(self, s):
         cnt = Counter(s)
