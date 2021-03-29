@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
     def flipMatchVoyage(self, root, voyage):
         self.ans, self.ind = [], 0
