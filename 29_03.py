@@ -1,9 +1,5 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+# Monday, 29th March 2021
+# Flip Binary Tree To Match Preorder Traversal
 
 class Solution:
     def flipMatchVoyage(self, root, voyage):
@@ -25,3 +21,12 @@ class Solution:
                 
         dfs(root)
         return [-1] if None in self.ans else self.ans
+
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
